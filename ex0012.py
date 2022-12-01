@@ -1,0 +1,6 @@
+p = float(input('digite o preço do produto:R$ '))
+des = int(input('digite o preço do desconto: '))
+print('o preço do produto será de: {}'.format(p))
+print('o desconto será de: {}% '.format(des))
+pa = p - p*(des/100)
+print('Com o desconto de {}% no produto o preço será de:R$ {}'.format(des, pa))

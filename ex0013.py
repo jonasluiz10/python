@@ -1,0 +1,5 @@
+sal = float(input('digite o valor do salário do funcionário: R$ '))
+aum = int(input('digite o valor em porcentam o quanto o funcionário recebrá de aumento:'))
+print('o salario do funcionário é de:R$ {} '.format(sal))
+nv = sal+(sal*aum/100)
+print('Com o aumento de {}% o salário do funcionário passa a ser de: R$ {}'.format(aum, nv))
